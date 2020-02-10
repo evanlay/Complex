@@ -9,4 +9,7 @@ public class Complex {
         one = a;
         two = b;
     }
+    public Complex abs(){
+        
+    }
 }
