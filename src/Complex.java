@@ -9,7 +9,8 @@ public class Complex {
         one = a;
         two = b;
     }
-    public Complex abs(){
-        
+    public double abs(){
+        double c = Math.sqrt((one*one) + (two*two));
+        return c;
     }
 }
